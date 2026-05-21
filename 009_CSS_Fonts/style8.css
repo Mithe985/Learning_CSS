@@ -1,0 +1,41 @@
+h1{
+    font-family: serif;
+
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy;
+/* serif fonts */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ /*sans serif fonts */
+ font-family: 'Arial',sans-serif;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ /*monospace fonts */
+ font-family: 'Curier New';
+
+ /* fantasy fonts */
+ font-family: papyrus;
+ /*cursive fonts*/
+ font-family: Brush script MT;
+}
+h2{
+    font-family: 'popins',sans-serif;
+    font-size: 65px;
+    font-size: 4.0625em;
+    font-size: 100%;
+
+    font-style: oblique;
+
+    font-weight: bold;
+}
+h4{
+    font-size: 50px;
+
+font-variant: small-caps;}
+h5{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+h5 span{
+    font-size: 130%;
+}
