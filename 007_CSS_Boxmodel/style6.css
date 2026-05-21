@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    height: inherit;
+}
+
+.parent{
+    background: purple;
+    color: white;
+    width: 32.22%;
+    margin: 10px;
+    padding: 20px;
+    border: 1em solid tomato;
+    float: left;
+}

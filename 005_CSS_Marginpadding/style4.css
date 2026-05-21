@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.parent{
+    background: purple;
+    width: 300px;
+    margin-top: 50px;
+    padding-top: 50px;
+
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.child{
+    background: yellowgreen;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+    
+}
