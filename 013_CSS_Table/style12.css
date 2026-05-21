@@ -1,0 +1,31 @@
+table,
+th,
+td{
+    border: 1px solid tomato;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+th{
+    background: green;
+    border: 1px red;
+    height: 50px;
+    text-align: left;
+}
+table{
+    width: 100%;
+}
+td{
+    background: greenyellow;
+    border: 1ps solid thistle;
+    color:blue;
+    height: 35px;
+    vertical-align: center;
+}
+tr:hover th,tr:hover{
+background: aquamarine;
+}
+div{
+    width: 450px;
+    overflow: hidden;
+}
+
