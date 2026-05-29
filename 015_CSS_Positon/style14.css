@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+}
+
+div{
+    background:aqua;
+
+    width:400px;
+    height: 400px;
+    position: static;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    top: 30px;
+}
+
+
