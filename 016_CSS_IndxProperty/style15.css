@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+
+div{
+    background:aqua;
+
+    width:400px;
+    height: 400px;
+    position: static;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    top: 30px;
+}
+.child{
+    background: peru;
+    width: 100px;
+    height:100px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    z-index: 1;
+}
+.child2{
+    background: peru;
+    width: 100px;
+    height:100px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+.child3{
+    background:blue;
+    width: 200px;
+    height:200px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+
+
+
+
