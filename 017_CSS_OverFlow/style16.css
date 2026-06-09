@@ -1,0 +1,14 @@
+div{
+    background:goldenrod;
+    color: azure;
+    padding: 20px;
+    overflow: visible;
+    width: 90%;
+    height: 200px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+p{
+    width: 600px;
+}
