@@ -1,0 +1,49 @@
+a:hover{
+    color: red;
+}
+a:visited{
+    color: purple;
+}
+/*li:first-child{
+    color: rosybrown;
+}
+li:last-child{
+    color: rosybrown;
+}*/
+li:nth-child(2n+1){
+    color: blue;
+}
+
+body{
+    background: aqua;
+    background-image: url(bg.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+body::after{
+    
+    content: 'element';
+    display: inline-block;       
+    width: 200px;               
+    height: 200px;             
+    background-image: url(bg.jpg);
+    background-size: cover;      
+    background-repeat: no-repeat;
+}
+p::first-line{ /* : means pseudo class and :: means pseudo element */
+    color: blue;
+    font-weight: bold;
+    font-size: 35px;
+}
+p::first-letter{
+    font-size: 65px;
+}
+p::selection{
+    background: orange;
+    color: wheat;
+}
+
+
+
+
